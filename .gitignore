@@ -1,0 +1,5 @@
+# app dependency directories
+app/node_modules/
+
+# app angular
+app/.angular/*

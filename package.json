@@ -1,0 +1,8 @@
+{
+    "scripts": {
+        "serve": "cd app && npm install && ng serve",
+        "test": "cd app && npm install && ng test",
+        "cy:run": "cd functional-tests && npm install && npm run cy:run",
+        "cy:open": "cd functional-tests && npm install && npm run cy:open"
+    }
+}

@@ -1,0 +1,63 @@
+:root {
+--pico-border-radius: 2rem;
+--pico-typography-spacing-vertical: 1.5rem;
+--pico-form-element-spacing-vertical: 1rem;
+--pico-form-element-spacing-horizontal: 1.25rem;
+}
+h1 {
+--pico-font-family: Pacifico, cursive;
+--pico-font-weight: 400;
+--pico-typography-spacing-vertical: 0.5rem;
+}
+button {
+--pico-font-weight: 700;
+}
+
+.container-centred {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.centred {
+    text-align: center;
+    display: inline-block;
+}
+
+.margin-15 {
+    margin: 15px;
+}
+
+.margin-30 {
+    margin: 30px;
+}
+
+.border-red{
+    border: 2px solid #964a50;
+}
+
+.border-green{
+    border: 2px solid #2a7b6f;
+}
+
+.border-purple{
+    border: 2px solid #9236a4;
+}
+
+.logo {
+    max-width: 150px;
+}
+
+.delete-icon {
+    max-width: 20px;
+    max-height: 30px;;
+}
+
+.delete {
+    color:#964a50;cursor: pointer;
+}
+
+.table-layout {
+    table-layout: fixed;
+    width: 100%;
+}
